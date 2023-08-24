@@ -1,0 +1,112 @@
+
+body {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background-image: linear-gradient(rgb(41, 23, 90), rgb(106, 255, 119));
+    
+   
+  }
+
+header{
+    justify-content: center;
+    text-align: center;
+    color: rgb(171, 30, 199);
+    background-image: linear-gradient(rgb(234, 248, 105), rgb(255, 12, 255));
+    font-family: "Century Gothic";
+}
+
+h1::before, h1::after{
+    content: "\1F99E"; 
+}
+
+nav{
+text-align:center; 
+margin-top: 10px;
+margin-bottom: 10px;
+color: rgb(171, 30, 199);
+
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    
+  background-image: linear-gradient(rgb(234, 248, 105), rgb(255, 12, 255));
+  background-clip: text;
+  text-align:center;
+  color: blue;
+  font-weight: bolder;
+   
+   
+  
+}
+
+footer p::before, footer p::after{
+    content: "\1F99E"; 
+}
+
+
+
+
+.boxes{
+    
+    color: white;
+    background-image: linear-gradient(rgb(255, 155, 255), rgb(255, 12, 255));
+    display: flex;
+   justify-content: left;
+   
+  
+    outline: 4px solid rgb(95, 203, 240);
+    padding: 10px;
+    margin: 50px;
+    flex: 1 0 0px;
+
+    
+}
+
+
+div.boxes h3{
+    position: absolute;
+    color: #0ff;
+    display:flex;
+    justify-content: center;
+    margin-left: 170px;
+    margin-top: -40px;
+    outline: 4px solid rgba(196, 48, 255, 0.637);
+    background-image: linear-gradient(rgb(7, 26, 7), rgb(255, 12, 255));
+}
+
+.boxes:hover{
+    background-image: linear-gradient(rgb(145, 255, 218), rgb(10, 252, 171));
+    box-shadow: 10px 10px 30px 30px #0ff;
+}
+
+.wireframe {
+    outline: 2px solid rgb(255, 254, 254);
+    outline-color: linear-gradient(to right,rgb(145, 255, 218), rgb(10, 252, 171));
+}
+
+.wireframe2{
+    outline: 2px solid lightblue;
+}
+
+
+
+
+h2{
+    font-size: 25px;
+    outline: 2px solid rgb(224, 11, 11);
+    outline-offset: 1px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-image: linear-gradient(to right,rgb(90, 175, 255), rgb(221, 238, 147));
+    
+}
