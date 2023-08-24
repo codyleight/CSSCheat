@@ -120,10 +120,4 @@ h2{
    
   }
 
-  @media (min-width:481px) and (max-width:768px) {
-    section {
-        display: flex;
-        flex-direction: column;
-    }
-
-    }
+  
