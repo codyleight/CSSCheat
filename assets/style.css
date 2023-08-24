@@ -110,3 +110,20 @@ h2{
     background-image: linear-gradient(to right,rgb(90, 175, 255), rgb(221, 238, 147));
     
 }
+
+@media screen and (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+  
+   
+  }
+
+  @media (min-width:481px) and (max-width:768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    }
